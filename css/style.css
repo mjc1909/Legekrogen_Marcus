@@ -1,0 +1,523 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #C1ADCE;
+}
+
+.fragt{
+    background-color: #D7E6EC;
+    height: 20px;
+    text-align: center;
+}
+
+.p4{
+    font-family: quicksand;
+    font-size: 14px;
+    color: #355674;
+}
+
+header{
+    display: flex;
+    background-color: #355674;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:end;
+    text-align: end;
+    list-style: none;
+    font-family:quicksand;
+    margin-top: 20px;
+}
+
+.navitem:hover{
+    opacity: 0.8;
+}
+
+.navitem{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 150px;
+    
+}
+
+
+button:hover{
+cursor:pointer;
+opacity: 0.8;
+}
+
+.logo{
+    margin: 10px;
+    width: 100px;
+    
+}
+
+.hamburger {
+    color: #fff;
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+  }
+
+  .menuItem{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    font-weight:500;
+    
+  }
+
+  .logo2{
+    width: 115px;
+    margin-left: 35%;
+    
+  }
+
+  .menu {
+    font-family: quicksand;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background-color: #355674;
+    color: #fff;
+    
+    
+    
+  }
+
+  .showMenu {
+    transform: translateY(0);
+    
+  }
+
+.menuItem{
+    color: floralwhite;
+    text-decoration: none;
+    
+}
+
+.slider {
+    height: 100vh;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    
+}
+.container .slider-slide{
+    width: 100%;
+    object-fit: cover;
+    height: 667px;    
+    
+    
+        
+        
+    }
+
+    .overlay{
+        background: rgb(0, 0, 0);
+      background: rgba(193, 173, 206, 0.58); /* Black see-through */
+      color: #fff;
+      position: absolute;
+      opacity:1;
+      transform: scale(1);
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 667px;
+      width: 100%;
+      
+    }
+
+    .container {
+        
+        object-fit: cover;
+        position: absolute;
+        width: 100%;
+        display: block;
+        justify-content: center;
+        text-align: center;
+      }
+
+    h1{
+        color: #fff;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        font-weight: normal;
+        font-family: square peg;
+        font-size: 30pt;
+        
+        
+    }
+
+    .læsmere{
+        font-family: quicksand;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        height: 5vh;
+        width: 250px;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #fff;
+        background-color: #9478A7;
+        border: none;
+    }
+
+    .legetøj{
+    height: 30pt;
+    width: 250pt;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    }
+
+    .p1{
+        color: #fff;
+        font-size: 14px;
+        font-family: quicksand;
+        top: 50%;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+        text-align: center;
+    
+    }
+
+    h2,h6{
+        color: #fff;
+        font-family: square peg;
+        text-align: center;
+        font-size: 40pt;
+        font-weight: normal;
+        margin-top: 50px;
+    }
+
+    h3,h7{
+        color: #fff;
+        font-family: quicksand;
+        text-align: center;
+        font-size: 45pt;
+        font-weight:100;
+        margin-bottom: 50px;
+    }
+
+    .products{
+    display: grid;
+    justify-content: center;
+    }
+
+.product{
+    width: 325px;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+}
+
+.box-1,.box-2{
+ height: 120pt;   
+ width: 325pt;
+ background-color: #9478A7;
+ width: 325px;
+ 
+ margin-bottom: 50px;
+ border-bottom-right-radius: 5%;
+ border-bottom-left-radius: 5%;
+}
+
+h4{
+    font-size: 18px;
+    color: #fff;
+    font-family: quicksand;
+    font-weight: 100;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+h5{
+    font-size: 18px;
+    color: #fff;
+    font-family: quicksand;
+    margin-left: 20px;
+    font-weight: medium;
+}
+
+.pris{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 26px;
+    font-family: quicksand;
+    color: #fff;
+}
+/*Månedens FAVORIT*/
+h6,h8,.neo,.pris2{
+color: #355674;
+}
+
+h7{
+color: #355674;
+}
+
+h8{
+    font-size: 18px;
+    font-family: quicksand;
+    font-weight: 100;
+}
+
+.neo{
+    font-size: 18px;
+    font-family: quicksand;
+    font-weight: medium;
+}
+
+.pris2{
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+.favorit{
+    background-color: #fff;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.box-2{
+    background-color: #fff;
+    
+}
+
+.købher{
+    font-family: quicksand;
+    text-align: center;
+    height: 50px;
+    width: 250px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    background-color: #9478A7;
+    border: none;
+   margin-top: 50px;
+}
+
+/*ANMELDELSER*/
+
+.anmeldelser{
+    background-color: #F3F8F9;
+    display: grid;
+    justify-content: center;
+    height: 750px;
+}
+
+.p2{
+    font-size: 18px;
+    font-family: quicksand;
+    font-weight: medium;
+    color: #355674;
+    margin-top: 100px;
+}
+
+.p3{
+    font-size: 24px;
+    color: #9478A7;
+    font-family: square peg;
+    
+    margin-top: 20px;
+}
+
+.andreas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*FORM*/
+
+.kundeklub{
+    height: 770px;
+    background-image: url(/img/form_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    justify-content: center;
+}
+
+form {
+    width: 80%;
+    margin:  100px auto;
+    margin-top: 100px;
+    
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    height: 45px;
+    border: 1px solid white;
+    background-color: transparent;
+    
+    
+}
+
+.hvem{
+    height: 180px;
+}
+
+
+.submit:hover{
+cursor: pointer;
+background-color: #775d88;
+}
+
+.msg{
+    text-align: center;
+}
+
+form input[type=submit] {
+    background-color: #9478A7;
+    color: white;
+    border:none;
+    
+}
+
+input:valid {
+    border: 2px solid springgreen;
+}
+
+input:focus {
+    outline: transparent;
+}
+
+
+label {
+    font-family: quicksand;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.overlay2{
+    background: rgb(0, 0, 0);
+    background: rgba(53, 86, 116, 0.7); /* Black see-through */
+    color: #fff;
+    position: absolute;
+    opacity:1;
+    transform: scale(1);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 770px;
+    width: 100%;
+}
+
+/*FOOTER*/
+
+footer{
+    height:528px;
+    width: 100%;
+    background-color: #355674;
+    text-align: center;
+}
+
+.footerheader{
+    font-family: square peg;
+    font-size: 40px;
+    color: #fff;
+    
+}
+
+.email{
+    color: white;
+    font-family: quicksand;
+    font-size: 16px;
+}
+
+.følg{
+    font-family: square peg;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.fa {
+    
+    color: #fff;
+    padding: 10px;
+    font-size: 30px;
+    
+    text-align: center;
+    text-decoration: none;
+  }
+.fa:hover {
+    opacity: 0.7;
+  }
+
+/*MEDIA QUERY*/
+
+@media (max-width: 768px){
+    .navul,.navitem{
+        display: none;
+    }
+
+
+
+}
+
+@media (min-width: 768px){
+    .hamburger{
+        display: none;
+    }
+    
+    .logo3{
+        position: absolute;
+        right: 38%;
+        margin-top: 5%;
+    }
+    
+    
+}
+
+
+
+
+

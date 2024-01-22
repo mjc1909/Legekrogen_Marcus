@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legekrogen</title>
+    <script src="scripts/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+      </style>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<section class="fragt">
+    <p class="p4"  > <span>&#128666;</span>Fri fragt ved køb over 499,-</p>
+</section>
+
+<header>
+    <img class="logo" src="/logo/legekrogen_logo.png" alt="">
+    <ul class="navbar">
+        <li><a class="navitem" href="#legetøj">Legetøj</a></li>
+        <li><a class="navitem" href="#favorit">Favorit</a></li>
+        <li><a class="navitem" href="#kundeklub">Kundeklub</a></li>
+    </ul>
+</header>
+
+
+<ul class="menu">
+    <img class="logo2" src="/logo/legekrogen_logo.png" alt="">
+    <li><a class="menuItem" href="#legetøj">Legetøj</a></li>
+    <li><a class="menuItem" href="#favorit">Månedens favoritter</a></li>
+    <li><a class="menuItem" href="#kundeklub">Kundeklub</a></li>
+</ul>
+<button class="hamburger">
+    <!-- material icons https://material.io/resources/icons/ -->
+    <i class="menuIcon material-icons">menu</i>
+    
+</button>
+
+<section class="slider" id="slider01">
+    <div class="container">
+        <img class="slider-slide" src="/img/slider1.jpg" alt="">
+        
+        <div class="overlay">
+            <h1>At lege er at leve</h1>
+            <p class="p1">"Her hos os har vi et stort udvalg af legetøj i høj kvalitet"</p>
+            <a href="linkpoint.html" >
+            <button  class="læsmere">LÆS MERE     ></button>
+        </a>
+         </div>
+         </div>
+</section>
+
+<section id="legetøj" class="products">
+    <h2>Et udpluk af vores</h2>
+    <h3>LEGETØJ</h3>
+    <img class="product" src="/img/products/product1.jpg" alt=""> <div class="box-1">
+    <h4>Tiny Republic Play</h4>
+    <h5>Tandlægesæt i træ</h5>
+    <p class="pris" >849 kr</p>
+    </div>
+    <img class="product" src="/img/products/product2.jpg" alt=""> <div class="box-1" >
+        <h4>Kids Concept</h4>
+        <h5>Edvin gåvogn</h5>
+        <p class="pris" >499 kr</p>
+    </div>
+    <img class="product" src="/img/products/product3.jpg" alt=""> <div class="box-1" >
+     <h4>Vilac</h4>
+     <h5>Fire på stribe spil</h5>
+     <p class="pris" >69,30kr</p>
+    </div>
+    <img class="product" src="/img/products/product4.jpg" alt=""> <div class="box-1" >
+     <h4>Tiny Republic Play</h4>
+     <h5>Isbod i træ</h5>
+     <p class="pris" >259 kr</p>
+    </div>
+
+    <button class="legetøj">GÅ TIL LEGETØJ   ></button>
+</section>
+
+<section class="favorit">
+<h6>Månedens</h6>
+<h7>FAVORIT</h7>
+
+<img id="favorit" class="product" src="/img/products/product5.jpg" alt=""> <div class="box-2" >
+    <h8 >Kids Concept</h8>
+    <p class="neo" >Neo gyngedinosaur</p>
+    <p class="pris2" >749 kr</p>
+    <a href="linkpoint.html">
+    <button class="købher">KØB GYNGEHESTEN HER</button>
+    </a>
+    </div>
+    </section>
+
+<section class="anmeldelser">
+<div class="andreas">
+<p class="p2">”Bedste gyngehest nogensinde”</p>
+<p class="p3">- Andreas, far til Michael på 1 år</p>
+</div>
+
+<div class="andreas">
+    <p class="p2">“Min søn elsker sin nye <br> trægyndehest. Han kalder <br> den Hannibal”</p>
+    <p class="p3">- Heidi, mor til Hugo på 3 år</p>
+    </div>
+
+    <div class="andreas">
+        <p class="p2">”Virkelig god <br> kvalitet, og pæn at <br> ha stående i stuen”</p>
+        <p class="p3">- Camilla, mor til Sophia på 9 måneder</p>
+        </div>
+</section>
+
+<section id="kundeklub" class="kundeklub">
+
+
+    <div class="container">
+        <div class="overlay2">
+    <form id="form-id">
+        <label> Fulde navn
+            <input type="text" placeholder="Fulde navn" required minlength="2" maxlength="20">
+        
+        <label> Email
+            <input type="text" placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+        </label>
+
+        <label> Hvem køber du legetøj til?
+            <input class="hvem" type="text" placeholder="Hvem køber du legetøj til?" required minlength="2">
+        </label>
+
+
+
+
+        <input class="submitbutton"  type="submit" name="submit" value="BLIV MEDLEM NU!" >
+    </form>
+
+    <div class="msg"></div>
+</div>
+</div>
+</section>
+
+<footer>
+    <p class="footerheader">Kundeservice</p>
+    <p class="email"><span> &#9993;</span>  kontakt@legekrogen.dk</p>
+    <p class="email"><span>&#128241;</span> +45 23 45 67 89</p>
+    <p class="følg">Følg os</p>
+    <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<img  class="logo3" src="/logo/legekrogen_logo.png" alt="">
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
